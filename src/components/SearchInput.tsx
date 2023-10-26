@@ -15,7 +15,7 @@ export default function SearchInput() {
 
   return (
     <form
-      className='flex items-center gap-2 justify-center p-2 rounded-md bg-blue-900'
+      className='flex items-center gap-2 justify-center p-2 rounded-md bg-indigo-900'
       onSubmit={handleSubmit}
     >
       <SearchIcon width={30} fill='lightblue' className='mx-2' />
@@ -27,7 +27,7 @@ export default function SearchInput() {
       <Button type='submit' className='w-[100px]'>
         Search
       </Button>
-      {/* <button type='submit' className='bg-blue-600 p-2 rounded-md'>
+      {/* <button type='submit' className='bg-indigo-600 p-2 rounded-md'>
         Search
       </button> */}
     </form>

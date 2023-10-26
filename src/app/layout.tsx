@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${nunito.className} h-screen flex flex-col bg-blue-950 md:w-[55%] w-full mx-auto`}
+        className={`${nunito.className} h-screen flex flex-col bg-indigo-950 md:w-[55%] w-full mx-auto`}
       >
         <Navbar />
 

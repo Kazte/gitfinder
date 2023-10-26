@@ -12,7 +12,7 @@ interface Props {
 
 export default function ProfileCard({ profile }: Props) {
   return (
-    <section className='bg-blue-900 rounded-md flex flex-col overflow-hidden gap-4 px-4 py-6 flex-none'>
+    <section className='bg-indigo-900 rounded-md flex flex-col overflow-hidden gap-4 px-4 py-6 flex-none'>
       <header className='flex flex-row justify-start gap-6 items-start mx-auto w-full'>
         <Image
           src={profile.avatar_url}
@@ -33,7 +33,7 @@ export default function ProfileCard({ profile }: Props) {
       </header>
       <main className='flex flex-col gap-4 w-[90%] mx-auto'>
         <p>{profile.bio ?? 'No bio yet.'}</p>
-        <div className='bg-blue-950 p-4 rounded-md flex flex-row gap-2 justify-around items-center'>
+        <div className='bg-indigo-950 p-4 rounded-md flex flex-row gap-2 justify-around items-center'>
           <div className='flex flex-col'>
             <h4>Repos</h4>
             <strong className='text-xl'>{profile.public_repos}</strong>
