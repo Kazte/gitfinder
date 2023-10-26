@@ -24,7 +24,7 @@ export default function SearchInput() {
         className='h-full w-full p-2 bg-transparent placeholder:text-blue-200 focus:outline-none text-lg'
         placeholder='Search GitHub username...'
       ></input>
-      <Button type='submit' className='w-[35%]'>
+      <Button type='submit' className='w-16'>
         Search
       </Button>
       {/* <button type='submit' className='bg-blue-600 p-2 rounded-md'>

@@ -22,11 +22,11 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${nunito.className} h-screen flex flex-col bg-blue-950 w-[75%] max-w-lg mx-auto`}
+        className={`${nunito.className} h-screen flex flex-col bg-blue-950 md:w-[55%] w-full mx-auto`}
       >
         <Navbar />
 
-        <main className='flex-grow flex flex-col gap-2'>
+        <main className='flex-grow flex flex-col gap-2 p-4'>
           <SearchInput />
           {children}
         </main>
