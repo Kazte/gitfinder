@@ -22,9 +22,9 @@ export default function SearchInput() {
       <input
         type='text'
         className='h-full w-full p-2 bg-transparent placeholder:text-blue-200 focus:outline-none text-base'
-        placeholder='Search GitHub username...'
+        placeholder='GitHub username...'
       ></input>
-      <Button type='submit' className='w-[100px]'>
+      <Button type='submit' className=''>
         Search
       </Button>
       {/* <button type='submit' className='bg-indigo-600 p-2 rounded-md'>
