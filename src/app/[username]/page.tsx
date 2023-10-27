@@ -15,7 +15,7 @@ export default async function page({
     <>
       <ProfileCard profile={user} />
       <Link href={`/${params.username}/repos/1`}>
-        <Button>Ver Repos</Button>
+        <Button className='w-full'>Repositories</Button>
       </Link>
     </>
   );

@@ -29,13 +29,17 @@ export default async function layout({
             href={`/${params.username}/repos/${backPage}`}
             className='w-full'
           >
-            <Button disabled={backDisabled}>Back</Button>
+            <Button className='w-full' disabled={backDisabled}>
+              Back
+            </Button>
           </Link>
           <Link
             href={`/${params.username}/repos/${nextPage}`}
             className='w-full'
           >
-            <Button disabled={nextDisabled}>Next</Button>
+            <Button className='w-full' disabled={nextDisabled}>
+              Next
+            </Button>
           </Link>
         </section>
       ) : (

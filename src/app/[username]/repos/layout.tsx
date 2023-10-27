@@ -10,8 +10,8 @@ export default function layout({
 }) {
   return (
     <>
-      <Link href={`/${params.username}`}>
-        <Button>Back to profile</Button>
+      <Link href={`/${params.username}`} className='w-full'>
+        <Button className='w-full'>Back to profile</Button>
       </Link>
       {children}
     </>
