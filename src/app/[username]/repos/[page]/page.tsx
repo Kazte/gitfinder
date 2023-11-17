@@ -12,7 +12,7 @@ export default async function page({
   return (
     <section className='flex flex-col gap-2'>
       {repos.length > 0 ? (
-        <ul className='grid md:grid-cols-2 grid-cols-1 place-items-stretch gap-4 flex-wrap pb-4'>
+        <ul className='grid lg:grid-cols-2 grid-cols-1 place-items-stretch gap-4 flex-wrap pb-4'>
           {repos.map((repo) => {
             return (
               <li key={repo.id}>

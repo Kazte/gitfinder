@@ -12,11 +12,14 @@ export default function RepoCard({ repo }: Props) {
         className='hover:scale-[1.01] transition-transform bg-indigo-900 rounded-md flex flex-col overflow-hidden gap-4 px-4 py-6 
       h-full'
       >
-        <div>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-2xl font-semibold overflow-ellipsis leading-5'>
             {repo.name}
           </h2>
-          <em>Created {formatDate(new Date(repo.created_at))}</em>
+          <div className='flex flex-col'>
+            <em>Created {formatDate(new Date(repo.created_at))}</em>
+            <em>Updated {formatDate(new Date(repo.updated_at))}</em>
+          </div>
         </div>
         {repo.description ? (
           <p>{repo.description}</p>

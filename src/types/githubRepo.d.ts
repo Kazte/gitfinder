@@ -4,5 +4,6 @@ export type GithubRepo = {
   html_url: string;
   description: string;
   created_at: Date;
+  updated_at: Date;
   stargazers_count: number;
 };
